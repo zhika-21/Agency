@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Quicksand', sans-serif;
+    line-height: 1.6;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+.h1{
+    color: yellow;
+}
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 40px;
+    overflow: auto;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.navbar .flex {
+    justify-content: space-between;
+}
+
+.navbar {
+    background-color: rgb(87, 84, 84);
+    color: yellow;
+    height: 70px;
+}
+.navbar ul {
+    display: flex;
+}
+
+.navbar a {
+    color: #fff;
+    padding: 10px;
+    margin: 0 5px;
+    font-size: large;
+    font-weight: 800;
+}
+
+.navbar a:hover {
+    border-bottom: 2px #fff solid;
+}
+
+.showcase{
+    grid-area: showcase;
+    min-height: 500px;
+    background-image: url(https://learn.seytech.co/assets/projects/html-css/projects/1-agency/assets/img/header-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    color: white;
+}
+
+.showcase-text{
+    margin: auto;
+    text-align: center;
+    font-size: 40px;
+    padding left: 20px;
+}
+button{
+    background-color: rgb(236, 236, 14);
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 1.5rem 3rem;
+    font-weight: 900;
+
+}
